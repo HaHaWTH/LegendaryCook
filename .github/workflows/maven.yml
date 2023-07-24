@@ -54,7 +54,7 @@ jobs:
 
       - name: Build
 
-        run: ./LegendaryCook-1.12.2/mvn -V -B package
+        run: cd ./LegendaryCook-1.12.2 && mvn -V -B package
 
       - name: Upload a Build Artifact
 
